@@ -1,0 +1,85 @@
+
+#puzzle-container {
+    width: 150px;
+    height: 150px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 5px;
+    
+   
+   
+  }
+.puzzle-container1{
+    width: 150px;
+    height: 150px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 5px;
+   
+   
+  }
+.puzzle-container1:hover{
+    border: solid 2px turquoise;
+    
+   
+   
+  }
+  .tile {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    cursor: pointer;
+    background-color: gray;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+   
+  }
+  .tile1{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    cursor: pointer;
+    background-color: gray;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 3px;
+  }
+  .tile1:hover{
+
+border: none;
+
+  }
+  
+  button {
+    margin-top: 10px;
+  }
+
+  .body{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+  }
+.btn{
+
+    padding: 10px 20px;
+    background-color: tomato;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 9px;
+}
+
+h1{
+   text-align: center;
+   color: tomato;
+}
+h1:hover{
+   text-align: center;
+   color:red;
+}
